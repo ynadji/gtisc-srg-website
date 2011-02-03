@@ -95,16 +95,16 @@ The more information you can provide (an abstract instead of just a title) the b
 """<tr>
 <td>%s</td>
 <td>
-  <p><b>Presenter</b>: </p>
-  <p><b>Topic</b>: </p>
+  <p><b>Presenter</b>: <br />
+  <b>Topic</b>: </p>
 </td>
 </tr>"""
     colorday = \
 """<tr>
 <td bgcolor="#dddddd">%s</td>
 <td bgcolor="#dddddd">
-  <p><b>Presenter</b>: </p>
-  <p><b>Topic</b>: </p>
+  <p><b>Presenter</b>: <br />
+  <b>Topic</b>: </p>
 </td>
 </tr>"""
 
