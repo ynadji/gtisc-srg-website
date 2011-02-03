@@ -87,6 +87,8 @@ The more information you can provide (an abstract instead of just a title) the b
 
 </td>
 </tr>
+
+<tr><td><p><a href="https://github.com/ynadji/gtisc-srg-website">GitHub page</a></p></td></tr>
 </tbody></table>
 
 </div></body></html>"""
