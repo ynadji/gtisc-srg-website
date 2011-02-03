@@ -1,0 +1,21 @@
+= SRG Website =
+I wrote a quick little python script to generate the body of the SRG webpage
+with quick customizations. The primary benefit is getting the dates right
+The code should be self-explanatory:
+
+$ python schedulegen.py --help
+Usage: schedulegen.py [options] firstday lastday
+
+Options:
+  -h, --help            show this help message and exit
+  -o ORGANIZER, --organizer=ORGANIZER
+  -e EMAIL, --email=EMAIL
+  -w WEBSITE, --website=WEBSITE
+  -l LOCATION, --location=LOCATION
+  -t TIME, --time=TIME
+
+firstday/lastday work with a MM/DD/YYYY format, I'm sure the parser handles
+other forms as well. All the other arguments are strings. Check the code for
+sane defaults. The page is printed to stdout.
+
+- yacin
